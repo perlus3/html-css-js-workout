@@ -3,9 +3,9 @@ html {
 }
 
 .box {
-    display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     width: 200px;
     height: 200px;
     border: 40px solid #F97316;
@@ -16,6 +16,7 @@ html {
 }
 
 .arena {
+    display: flex;
     border: 1px dotted olive;
     height: 80vh;
 }
